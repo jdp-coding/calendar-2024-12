@@ -1,0 +1,25 @@
+.date-card {
+  background-color: white;
+  width: 200px;
+  height: 160px;
+  border-radius: 8px;
+}
+
+.date-card div {
+  background-color: #aabbff;
+  padding: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  color: blanchedalmond;
+}
+
+.date-card .is-holiday {
+  background-color: rgb(254, 20, 40);
+}
+
+.date-card ul {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
